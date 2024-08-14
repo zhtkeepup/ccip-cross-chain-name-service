@@ -1,9 +1,10 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.19;
+pragma solidity ^0.8.19;
 
-import {IRouterClient} from "@chainlink/contracts-ccip/src/v0.8/ccip/interfaces/IRouterClient.sol";
-import {Client} from "@chainlink/contracts-ccip/src/v0.8/ccip/libraries/Client.sol";
-import {OwnerIsCreator} from "@chainlink/contracts-ccip/src/v0.8/shared/access/OwnerIsCreator.sol";
+import {IRouterClient} from "@chainlink/local/lib/ccip/contracts/src/v0.8/ccip/interfaces/IRouterClient.sol";
+
+import {Client} from "@chainlink/local/lib/ccip/contracts/src/v0.8/ccip/libraries/Client.sol";
+import {OwnerIsCreator} from "@chainlink/contracts/src/v0.8/shared/access/OwnerIsCreator.sol";
 
 import {ICrossChainNameServiceLookup} from "./ICrossChainNameServiceLookup.sol";
 
