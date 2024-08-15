@@ -1,3 +1,9 @@
+## CCIP Bootcamp 第二天作业，关键测试代码请参考 test/CrossChainNameService.t.sol
+
+## -----------
+
+## -------------
+
 ## CCIP Cross Chain Name Service
 
 > **Note**
@@ -8,8 +14,8 @@ This project is an educational example of how to create a minimal cross-chain na
 
 ## Prerequisites
 
-- [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-- [Current LTS Node.js version](https://nodejs.org/en/about/releases/)
+-   [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+-   [Current LTS Node.js version](https://nodejs.org/en/about/releases/)
 
 Verify installation by typing:
 
